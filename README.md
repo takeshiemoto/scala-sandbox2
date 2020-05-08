@@ -1,1 +1,1 @@
-IntelliJ IDEAにインポートするためのサンプルプロジェクトです
+# scala-sandbox-2
