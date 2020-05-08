@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/scala-sandbox_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnKnowShape.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/UnKnowShape.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Cell.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/Cell.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/MyApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Namable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/Namable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Shape.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/Shape.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Enumerable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/Enumerable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Employee.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/Employee.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/MyApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Circle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/Circle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CircleWithLazy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/CircleWithLazy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Triangle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/Triangle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Rectangle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jc0019p/IdeaProjects/scala-sandbox2/target/scala-2.12/classes/Rectangle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

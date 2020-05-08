@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/jc0019p/IdeaProjects/scala-sandbox2/src/main/scala/MyApp.scala:57:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef sumInt(list: List[Int]): Int = list.foldLeft(0) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jc0019p/IdeaProjects/scala-sandbox2/src/main/scala/MyApp.scala:62:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef sumDouble(list: List[Double]): Double = list.foldLeft(0.0) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jc0019p/IdeaProjects/scala-sandbox2/src/main/scala/MyApp.scala:67:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef sumString(list: List[String]): String = list.foldLeft("") {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jc0019p/IdeaProjects/scala-sandbox2/src/main/scala/MyApp.scala:84:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef sum[T](list: List[T])(adder: Adder[T]): T = {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jc0019p/IdeaProjects/scala-sandbox2/src/main/scala/MyApp.scala:94:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprintln(sum(List(1, 2, 3))(IntAdder)) // 6[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jc0019p/IdeaProjects/scala-sandbox2/src/main/scala/MyApp.scala:102:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef sum2[T](list: List[T])(implicit adder: Adder[T]): T = {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jc0019p/IdeaProjects/scala-sandbox2/src/main/scala/MyApp.scala:112:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0msum2(List(1, 2, 3)) // 6[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
