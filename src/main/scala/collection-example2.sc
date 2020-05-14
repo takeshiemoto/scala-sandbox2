@@ -42,20 +42,25 @@ languages.take(3)
 // 末尾から個数を指定して取得
 languages.takeRight(3)
 // 先頭から与えた条件を満たすまで取得
-languages.takeWhile(p => p == "Scala")
+languages.takeWhile(_ == "Scala")
 // 先頭から指定した個数を捨てて取得
 languages.drop(3)
 // 末尾から指定した個数を捨てて取得
 languages.dropRight(3)
 // 先頭から与えた条件満たすまで捨てて取得
+languages.dropWhile(_ == "Scala")
 
 /**
  * 要素の取得（Option型）
  * */
+val frontEnd = Seq("Angular", "React", "Vue")
+val backEnd = Nil
 // 先頭を取得
-
+frontEnd.headOption // Some
+backEnd.headOption // None
 // 末尾を取得
-
+frontEnd.lastOption // Some
+backEnd.lastOption // None
 /**
  * 要素の情報を取得
  * */
