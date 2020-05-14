@@ -1,3 +1,4 @@
+
 import scala.collection.mutable
 
 /** 1.クラスの継承 */
