@@ -1,6 +1,6 @@
 /**
  * 定義系
- * */
+ **/
 
 // 配列を定義
 val members = Seq("John", "Paul", "George", "Ringo")
@@ -13,7 +13,7 @@ val members2 = "John" :: "Paul" :: "George" :: "Ringo" :: Nil
 
 /**
  * 要素の追加
- * */
+ **/
 val teams = Seq("Lions", "Hawks", "Fighters")
 // 先頭に追加
 "Hawks" :+ teams
@@ -23,7 +23,7 @@ teams +: "Marines"
 
 /**
  * 要素の取得
- * */
+ **/
 val languages = Seq("JavaScript", "TypeScript", "Scala", "Go", "Ruby", "Python")
 // 先頭を取得
 languages.head
@@ -52,7 +52,7 @@ languages.dropWhile(_ == "Scala")
 
 /**
  * 要素の取得（Option型）
- * */
+ **/
 val frontEnd = Seq("Angular", "React", "Vue")
 val backEnd = Nil
 // 先頭を取得
@@ -63,7 +63,7 @@ frontEnd.lastOption // Some
 backEnd.lastOption // None
 /**
  * 要素の情報を取得
- * */
+ **/
 val books = Seq("Book1", "Book2", "Book3")
 // 配列の長さ
 books.length
@@ -72,49 +72,56 @@ books.isEmpty
 
 /**
  * 並び替え
- * */
+ **/
 // 要素を並び替える
-// sorted
+val animals = Seq("Lion", "Monkey", "Horse")
+animals.sorted
 // 用をを逆順に並び替える
-// reverse
+animals.reverse
+
 // 順序が事前定義されていない配列を並び替える
 // sortBy
 
 /**
  * 変換
- * */
+ **/
 // それぞれを変換し、新しい配列を返す
-// map
+Seq("Hello", "world", "everyone").map(_.head) // 先頭文字列を取り出してChar型にしている
 
 // 入れ子になったSeqを平にする
-// flatten
+Seq(Seq(1, 2), Seq(2, 3), Seq(4, 5)).flatten
 
 /**
  * 畳み込み
- * */
+ **/
 // 初期値を設定して先頭から畳み込む
-// foldLeft
+Seq(1, 2, 3).foldLeft(4)((accumulator, element) => accumulator + element)
 
 // 初期値を設定して末尾から畳み込む
-// foldRight
+Seq(1, 2, 3).foldRight(4)((accumulator, element) => accumulator + element)
 
 // 要素の先頭を初期として先頭から畳み込む
-// reduceLeft
+Seq(1, 2, 3).reduceLeft(_ + _)
 
 // 要素の末尾を初期として先頭から畳み込む
-// reduceRight
+Seq(1, 2, 3).reduceRight(_ + _)
+
 
 /**
  * 型変換
- * */
+ **/
 // Setに変換する
-
+Seq(1, 1, 2, 2, 3, 3, 4, 4, 5, 5).toSet
 // Mapに変換する
+Seq("Hello" -> 1, "world" -> 2).toMap
 
 /**
  * 可変なSeqに対する操作
- * */
-//
+ **/
+import scala.collection.mutable
+val s = mutable.Seq(1, 2)
+s.updated(1, 3)
+s(2) = 4
 
 
 
