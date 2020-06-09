@@ -34,3 +34,28 @@
 //for (m <- member) println(m)
 //member.foreach(m => println(m))
 //member.foreach(println)
+
+// array loop and filter
+//val numbers = List[Int](1, 2, 3, 4, 5, 6)
+//val results = numbers.filter((n) => { n % 3  == 0})
+//println(results)
+//val result = numbers.filter(n => n % 3 == 0)
+//val result = numbers.filter(_ % 3 == 0)
+
+// array loop and filter and map
+//val numbers = List[Int](1, 2, 3, 4, 5, 6)
+//val result = numbers.filter(_ % 3 == 0).map(_ * 10)
+//println(result)
+//numbers
+//  .filter(_ % 3 == 0)
+//  .map(_ * 10)
+//  .foreach(println)
+
+// array map with function
+//val nums = List(1, 2, 3, 4, 5)
+//val isEven: Int => Boolean = _ % 2 == 0
+//def isEven(n: Int): Boolean = {
+//  n % 2 == 0
+//}
+//def isEven(n: Int) = n % 2 == 0
+//nums.filter(isEven).foreach(println)
