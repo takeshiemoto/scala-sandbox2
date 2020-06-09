@@ -59,3 +59,11 @@
 //}
 //def isEven(n: Int) = n % 2 == 0
 //nums.filter(isEven).foreach(println)
+
+
+//val strLen: String => Int = _.length
+//val isEven: Int => Boolean = _ % 2 == 0
+//val strLenIsEven: String => Boolean = strLen andThen isEven
+//
+//strLenIsEven.apply("blue")
+//strLenIsEven("Yellow")
